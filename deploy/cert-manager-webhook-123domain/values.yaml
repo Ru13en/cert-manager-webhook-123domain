@@ -16,7 +16,7 @@ imagePullSecrets: []
 
 image:
   repository: ghcr.io/ru13en/cert-manager-webhook-123domain
-  tag: latest
+  tag: latest@sha256:41e000eaa6cac3d1b54c3253b8788fa77fdb396ddd81e631e55740541f71f3b1
   pullPolicy: IfNotPresent
 
 # -- Override the chart name.
